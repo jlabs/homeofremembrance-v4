@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home of Remembrance - Coming Soon</title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<!-- <link href="css/build/signin.css" rel="stylesheet"> -->
+		<!-- <link rel="stylesheet" href="css/build/global.css" type="text/css"> -->
+		<link rel="stylesheet" type="text/css" href="css/motio.css">
+	</head>
+
+<body>
+	<div id="panning" class="panningClouds"></div>
+	<div class="titleblock">
+		<h1>Home of Remembrance</h1>
+	</div>
+	<div style="margin-top: 174px;" />
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3" style="text-align:center;">
+				Coming soon ... a place of memories, for you and your loved ones
+			</div>
+			<div style="height: 24px;"></div>
+			<div class="col-lg-6 col-lg-offset-3" style="text-align:center;">
+				Want to test the the water? Click <a href="frontdoor.php">here</a>
+			</div>	
+					
+		</div>
+	</div>
+	<!--
+	<div class="container">
+	<br/>
+		<form class="form-signin">
+			<h2 class="form-signin-heading"></h2>
+			<input type="text" class="form-control" placeholder="Keep me updated" autofocus>
+			<br/>
+			<button class="btn btn-lg btn-warning btn-block" type="submit">Submit</button>
+		</form>
+	
+	</div> <!-- /container -->
+</body>
+
+<script type="text/javascript" src="js/build/motio.js"></script>
+<!--<script  type="text/javascript" src="js/build/global.min.js"></script>-->
+<script type="text/javascript">
+	// Panning
+	var panning = new Motio(document.getElementById('panning'), {
+		fps: 30, // Frames per second. More fps = higher CPU load.
+		speedX: 30 // Negative horizontal speed = panning to left.
+	});
+	panning.play(); // Start playing animation
+</script>
+
+</html>

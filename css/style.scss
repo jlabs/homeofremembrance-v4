@@ -1,0 +1,129 @@
+$colour_gold: #f1c40f;
+$fancytitlefont: 'Pacifico', serif;
+
+$bodyfont_oswald: 'Oswald', serif;
+$bodyfont_droid: 'Droid Sans', serif;
+$bodyfont_open: 'Open Sans', serif;
+
+body 
+{
+	font-family: $bodyfont_droid;
+	background-color: #fafafa;
+}
+
+a 
+{
+	color: $colour_gold;
+}
+
+.row 
+{
+	margin-left: 0px;
+}
+
+.dashboard 
+{
+	width: 100%;
+	height: 200px;
+}
+
+.dashboardheading 
+{
+	font-family: $fancytitlefont;
+	font-size: 48pt;
+	color: #fff;
+	text-align: right;
+}
+.dashboardsubheading 
+{
+	font-family: $bodyfont_open;
+	font-size: 12pt;
+	color: #eee;
+	text-align: right;
+	line-height: 36pt;
+}
+
+.pagestretch 
+{
+	background-color: #eee;
+	/*left: 0px;
+	width: 100%;*/
+	/*min-height: 100%;*/
+	/*padding-top: 10px;*/
+	margin-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+blockquote 
+{
+	margin: 0px;
+	border-left-color: white;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus 
+{
+	background-color: $colour_gold;
+}
+a.list-group-item.active > .badge, .nav-pills > .active > a > .badge 
+{
+	color: $colour_gold;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus 
+{
+	background-color: $colour_gold !important;
+}
+a.list-group-item.active 
+{
+	background-color: $colour_gold;
+	border-color: $colour_gold;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus 
+{
+	background: none;
+	background-image: none;
+	background-color: $colour_gold !important;
+}
+.dropdown-menu>li>a:hover 
+{
+	background: none;
+	background-image: none;
+	background-color: $colour_gold !important;
+}
+
+.panel-heading 
+{
+	color: $colour_gold;
+	/*font-size: 48pt;*/
+	text-align: center;
+	font-weight: bold;
+}
+
+.pagination 
+{
+	margin-left: 5px;
+}
+
+.thumbnailspreview 
+{
+	margin-top: 50px;
+}
+
+.thumbnail 
+{
+	margin-bottom: 4px;
+}
+
+.profilepiccropper
+{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-bottom: -20px;	
+}
+
+.overview
+{
+	display: inline-grid;
+	margin-bottom: -220px;
+}
